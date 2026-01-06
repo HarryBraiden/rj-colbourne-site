@@ -449,3 +449,8 @@ code{
   .grid-2{ grid-template-columns: 1fr; }
   .header-inner{ align-items:flex-start; }
 }
+
+/* Force all headings to be white */
+h1, h2, h3, h4, h5, h6{
+  color: #ffffff !important;
+}
