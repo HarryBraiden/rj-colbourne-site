@@ -28,18 +28,8 @@ body{
   background: radial-gradient(1200px 600px at 20% -10%, rgba(245,197,66,0.16), transparent 55%),
               radial-gradient(900px 500px at 90% 10%, rgba(255,159,26,0.14), transparent 60%),
               var(--bg);
-  :root{
-  --bg: #0b0f14;
-  --panel: #101722;
-  --panel-2: #0e141e;
-  --text: #eef2f7;
-  --muted: #a8b3c3;
-  --line: rgba(255,255,255,0.10);
-  --accent: #f5c542; /* road-line yellow */
-  --accent-2: #ff9f1a;
-  --radius: 16px;
-  --shadow: 0 18px 45px rgba(0,0,0,0.45);
-}
+  
+
 
 /* Extra top space on mobile so content doesn't hide under header */
 @media (max-width: 900px){
