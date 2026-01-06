@@ -3,7 +3,7 @@
   --panel: #101722;
   --panel-2: #0e141e;
   --text: #ffffff;
-  --muted: #a8b3c3;
+  --muted: rgba(255,255,255,0.75);
   --line: rgba(255,255,255,0.10);
   --accent: #f5c542; /* road-line yellow */
   --accent-2: #ff9f1a;
