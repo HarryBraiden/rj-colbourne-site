@@ -9,9 +9,16 @@
   --accent-2: #ff9f1a;
   --radius: 16px;
   --shadow: 0 18px 45px rgba(0,0,0,0.45);
-}@media (max-width: 900px){
+}
+
+/* Stops the sticky header overlapping section jumps */
+html{ scroll-padding-top: 90px; }
+
+@media (max-width: 900px){
+  .hero{ padding-top: 90px; }
   .site-header{ position: relative; }
 }
+
 
 *{ box-sizing: border-box; }
 html,body{ height:100%; }
