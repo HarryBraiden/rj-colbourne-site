@@ -55,10 +55,10 @@ a:hover{ opacity: .9; }
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(11,15,20,0.70);
-  backdrop-filter: blur(10px);
+  background: rgba(30, 38, 52, 0.92);
   border-bottom: 1px solid var(--line);
 }
+
 
 .header-inner{
   display:flex;
@@ -67,7 +67,13 @@ a:hover{ opacity: .9; }
   padding: 14px 0;
   gap: 14px;
 }
+.brand-name{
+  color: #ffffff;
+}
 
+.brand-tag{
+  color: rgba(255,255,255,0.85);
+}
 .brand{
   display:flex;
   align-items:center;
