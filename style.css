@@ -9,6 +9,8 @@
   --accent-2: #ff9f1a;
   --radius: 16px;
   --shadow: 0 18px 45px rgba(0,0,0,0.45);
+}@media (max-width: 900px){
+  .site-header{ position: relative; }
 }
 
 *{ box-sizing: border-box; }
