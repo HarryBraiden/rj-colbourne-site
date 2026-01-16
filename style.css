@@ -480,13 +480,22 @@ header > div:first-child * {
   opacity: 1 !important;
 }
 
-/* ===== RJ Work Gallery Fix ===== */
+/* ===== FORCE Recent Work gallery layout ===== */
 
+.recent-work,
+.work-grid,
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.recent-work img,
 .work-grid img,
-.gallery img,
-.recent-work img {
+.gallery img {
   width: 100%;
-  max-height: 220px;
+  height: 180px;          /* THIS is the key */
   object-fit: cover;
+  display: block;
   border-radius: 12px;
 }
