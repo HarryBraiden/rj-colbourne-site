@@ -557,3 +557,50 @@ header > div:first-child * {
   .work-grid{ grid-template-columns: repeat(3, 1fr); }
   .work-grid img{ height: 230px; }
 }
+
+
+/* ===== Recent Work – clean clickable photo cards ===== */
+
+.recent-work{
+  padding: 28px 16px;
+}
+
+.recent-work h2{
+  margin: 0 0 16px;
+}
+
+/* One-column layout */
+.work-list{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Card template (border + shadow) */
+.work-item{
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.10);
+  display: block;
+  text-decoration: none;
+}
+
+/* Image sizing */
+.work-item img{
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Slight tap/hover feel */
+.work-item:active{
+  transform: scale(0.99);
+}
+
+/* Desktop: slightly taller */
+@media (min-width: 900px){
+  .work-item img{ height: 340px; }
+}
