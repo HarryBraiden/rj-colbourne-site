@@ -412,3 +412,19 @@ button:hover {
   background-color: #081f36;
   border-color: #ffff
   }
+  
+  
+  /* ===== HEADER TEXT COLOUR FIX ===== */
+
+/* Main header title */
+header h1,
+.hero h1 {
+  color: #ffffff !important;
+}
+
+/* Header sub text / tagline */
+header p,
+.hero p,
+.hero-subtitle {
+  color: #f0f0f0 !important;
+}
