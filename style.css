@@ -450,3 +450,23 @@ button:hover {
   color: #ffffff !important;
 }
   
+  
+  /* ===== FIX FADED LEFT TEXT IN TOP BAR ===== */
+
+/* Target the actual left info block */
+.top-bar-left,
+.top-left,
+.header-left,
+.brand-left {
+  opacity: 1 !important;
+}
+
+/* Force text inside to be readable */
+.top-bar-left *,
+.top-left *,
+.header-left *,
+.brand-left * {
+  color: #f5f7fa !important;
+  opacity: 1 !important;
+}
+
