@@ -604,3 +604,14 @@ header > div:first-child * {
 @media (min-width: 900px){
   .work-item img{ height: 340px; }
 }
+
+/* Header spacing fix */
+.site-header .header-inner {
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.site-header .contact-info {
+  margin-left: auto;
+  text-align: right;
+}
