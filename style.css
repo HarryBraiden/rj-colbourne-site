@@ -433,3 +433,20 @@ button:hover {
   color: #ffffff !important;
 }
   
+  /* ===== FIX LEFT TEXT IN TOP NAVY BAR ===== */
+
+/* Left text block in top header */
+.top-bar .left,
+.top-bar .brand,
+.top-bar .logo-text,
+.top-bar h1,
+.top-bar h2,
+.top-bar p {
+  color: #f2f4f6 !important;
+}
+
+/* Make sure links there aren’t dark */
+.top-bar a {
+  color: #ffffff !important;
+}
+  
