@@ -8,8 +8,8 @@
   --ink: #1c1c1c;         /* near-black text */
   --muted: #5d5d5d;       /* secondary */
   --line: rgba(0,0,0,.10);
-  --accent: #b08a2e;      /* classy gold */
-  --accent2:#e1c26a;      /* lighter gold */
+  --accent: #9c7b2f;      /* classy gold */
+  --accent2:#d9bd72;      /* lighter gold */
   --shadow: 0 18px 40px rgba(0,0,0,.10);
   --radius: 16px;
 }
