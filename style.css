@@ -150,9 +150,9 @@ a:hover{ text-decoration: underline; }
 h1{
   margin: 12px 0 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 42px;
+  font-size: 38px;
   letter-spacing: -0.4px;
-  line-height: 1.05;
+  line-height: 1.08;
 }
 
 @media (max-width: 520px){
