@@ -479,3 +479,14 @@ header > div:first-child * {
   color: #f5f7fa !important;
   opacity: 1 !important;
 }
+
+/* ===== RJ Work Gallery Fix ===== */
+
+.work-grid img,
+.gallery img,
+.recent-work img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
