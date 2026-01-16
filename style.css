@@ -615,3 +615,16 @@ header > div:first-child * {
   margin-left: auto;
   text-align: right;
 }
+
+@media (max-width: 768px) {
+  .site-header .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .site-header .contact-info {
+    margin-left: 0;
+    text-align: left;
+  }
+}
