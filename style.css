@@ -470,3 +470,12 @@ button:hover {
   opacity: 1 !important;
 }
 
+/* Nuclear fix for top bar left side */
+header > div:first-child {
+  opacity: 1 !important;
+}
+
+header > div:first-child * {
+  color: #f5f7fa !important;
+  opacity: 1 !important;
+}
