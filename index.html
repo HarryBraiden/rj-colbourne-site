@@ -2,50 +2,179 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>R. J. Colbourne | Tarmac Contractor & Block Paving | Dudley, West Midlands</title>
-  <meta name="description" content="R. J. Colbourne — Tarmac Contractor & Block Paving in Dudley, West Midlands. Driveways, resurfacing, repairs & block paving. Call for a free quote."/>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R J Colbourne | Tarmac Contractor & Block Paving | Dudley</title>
+  <meta name="description" content="R J Colbourne — Tarmac Contractor & Block Paving in Dudley & the West Midlands. Driveways, resurfacing, repairs. Free quotes. Call 01384 233333 / 07973 662291." />
+
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --panel:#0f1720;
+      --muted:#a9b4c0;
+      --text:#eaf0f6;
+      --line:rgba(255,255,255,.10);
+      --accent:#f7b733;
+      --accent2:#f6d365;
+      --shadow: 0 18px 50px rgba(0,0,0,.45);
+      --radius:18px;
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 20% -10%, rgba(247,183,51,.18), transparent 60%),
+        radial-gradient(900px 500px at 90% 10%, rgba(246,211,101,.12), transparent 60%),
+        linear-gradient(180deg, #070a0e 0%, #0b0f14 100%);
+    }
+
+    a{color:inherit; text-decoration:none}
+    .wrap{max-width:1100px; margin:0 auto; padding:28px 18px 70px}
+
+    /* Top bar */
+    .top{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:14px; padding:14px 16px; border:1px solid var(--line);
+      background:rgba(15,23,32,.65); backdrop-filter: blur(10px);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      position: sticky; top: 12px; z-index: 50;
+    }
+    .brand{display:flex; flex-direction:column; line-height:1.05}
+    .brand b{font-size:18px; letter-spacing:.2px}
+    .brand span{font-size:13px; color:var(--muted)}
+    .top-actions{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end}
+    .btn{
+      display:inline-flex; align-items:center; gap:10px;
+      padding:11px 14px; border-radius: 12px; border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      transition:.2s transform, .2s background, .2s border;
+      font-weight:600; font-size:14px;
+    }
+    .btn:hover{transform: translateY(-1px); background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.18)}
+    .btn.primary{
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+      color:#1a1207; border:0;
+    }
+    .pill{
+      font-size:12px; color:#1a1207;
+      background: linear-gradient(135deg, rgba(247,183,51,.9), rgba(246,211,101,.9));
+      padding:6px 10px; border-radius: 999px; font-weight:800;
+    }
+
+    /* Hero */
+    .hero{padding:38px 8px 20px}
+    .hero-grid{
+      display:grid; gap:18px;
+      grid-template-columns: 1.25fr .75fr;
+      align-items:stretch;
+    }
+    @media (max-width: 900px){ .hero-grid{grid-template-columns: 1fr} }
+
+    .card{
+      border:1px solid var(--line);
+      background: rgba(15,23,32,.55);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .hero-main{padding:26px}
+    h1{margin:0 0 10px; font-size:44px; letter-spacing:-.6px}
+    @media (max-width: 520px){ h1{font-size:34px} }
+    .lead{margin:0 0 18px; color:var(--muted); font-size:16px; line-height:1.6}
+    .ticks{display:grid; gap:10px; margin:18px 0 0; color:var(--text)}
+    .tick{display:flex; gap:10px; align-items:flex-start; font-size:14px; color:var(--muted)}
+    .dot{
+      width:18px; height:18px; flex:0 0 18px; border-radius:6px;
+      background: rgba(247,183,51,.18);
+      border: 1px solid rgba(247,183,51,.35);
+      display:grid; place-items:center; color: var(--accent); font-weight:900;
+      margin-top:1px;
+    }
+
+    .hero-side{padding:18px; display:flex; flex-direction:column; gap:12px}
+    .side-box{
+      padding:16px; border-radius: 14px; border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+    }
+    .side-box h3{margin:0 0 8px; font-size:14px; color:var(--muted); font-weight:700; letter-spacing:.2px}
+    .big{font-size:18px; font-weight:900; letter-spacing:.2px}
+    .small{font-size:13px; color:var(--muted); line-height:1.55}
+    .kv{display:grid; gap:6px}
+    .kv a{display:inline-flex; gap:10px; align-items:center; padding:10px 12px; border-radius:12px; border:1px solid var(--line); background: rgba(0,0,0,.18)}
+    .kv a:hover{border-color: rgba(247,183,51,.35)}
+    .icon{width:18px; display:inline-grid; place-items:center; color:var(--accent)}
+
+    /* Sections */
+    .section{margin-top:18px; padding:0 8px}
+    .section-title{
+      display:flex; align-items:flex-end; justify-content:space-between; gap:14px;
+      margin:16px 0 10px;
+    }
+    .section-title h2{margin:0; font-size:18px}
+    .section-title p{margin:0; color:var(--muted); font-size:13px}
+
+    .grid3{display:grid; gap:12px; grid-template-columns: repeat(3, 1fr)}
+    @media (max-width: 900px){ .grid3{grid-template-columns: 1fr} }
+
+    .service{padding:16px}
+    .service b{display:block; margin-bottom:6px}
+    .service span{color:var(--muted); font-size:13px; line-height:1.6}
+
+    .gallery{
+      display:grid; gap:12px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: 900px){ .gallery{grid-template-columns: 1fr 1fr} }
+    @media (max-width: 520px){ .gallery{grid-template-columns: 1fr} }
+    .ph{
+      aspect-ratio: 4/3;
+      border-radius: 14px;
+      border:1px dashed rgba(255,255,255,.18);
+      background:
+        radial-gradient(500px 250px at 30% 20%, rgba(247,183,51,.12), transparent 60%),
+        rgba(255,255,255,.03);
+      display:grid; place-items:center;
+      color: rgba(233,240,246,.75);
+      font-weight:800;
+      letter-spacing:.3px;
+    }
+
+    /* Footer/contact */
+    .footer{
+      margin-top:18px;
+      padding:22px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:14px;
+    }
+    @media (max-width: 900px){ .footer{grid-template-columns:1fr} }
+    .fine{color:var(--muted); font-size:12px; line-height:1.6}
+    .mini{display:flex; gap:10px; flex-wrap:wrap}
+  </style>
 </head>
 
 <body>
-  <!-- Top Bar -->
-  <div class="topbar">
-    <div class="container topbar-inner">
-      <p class="topbar-text">Local • Reliable • Tidy Work • Free Quotes</p>
-      <div class="topbar-actions">
-        <a class="topbar-link" href="tel:01384233333">Tel: 01384 233333</a>
-        <a class="topbar-link" href="tel:07973662291">Mobile: 07973 662291</a>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand">
+        <b>R J Colbourne</b>
+        <span>Tarmac Contractor &amp; Block Paving — Dudley / West Midlands</span>
       </div>
-    </div>
-  </div>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="container header-inner">
-      <a class="brand" href="#">
-        <span class="brand-title">R. J. Colbourne</span>
-        <span class="brand-sub">Tarmac Contractor & Block Paving</span>
-      </a>
-
-      <nav class="nav">
-        <a href="#services">Services</a>
-        <a href="#work">Work</a>
-        <a href="#areas">Areas</a>
-        <a href="#contact">Contact</a>
-      </nav>
-
-      <div class="header-cta">
-        <a class="btn btn-ghost" href="mailto:johncolbourne1@btinternet.com">Email</a>
-        <a class="btn btn-primary" href="tel:07973662291">Call Now</a>
+      <div class="top-actions">
+        <a class="btn" href="tel:+441384233333">Call 01384 233333</a>
+        <a class="btn" href="tel:+447973662291">Mobile 07973 662291</a>
+        <a class="btn primary" href="https://wa.me/447973662291" target="_blank" rel="noopener">WhatsApp Photos</a>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class
+    <main class="hero">
+      <div class="hero-grid">
+        <section class="card hero-main">
+          <div class="pill">Free Quotes • Fast Response</div>
+          <h1>Driveways, Resurfacing &amp; Repairs — Done Properly.</h1>
+          <p class="lead">
+            Clean edges, solid preparation, tidy finish. Straight communication, honest pricing, and local service you can rely on
