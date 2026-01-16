@@ -413,18 +413,23 @@ button:hover {
   border-color: #ffff
   }
   
-  
-  /* ===== HEADER TEXT COLOUR FIX ===== */
+  /* ===== TOP BAR TEXT COLOUR (BIG BLUE BOX ABOVE HEADER) ===== */
 
-/* Main header title */
-header h1,
-.hero h1 {
+/* Common top-bar selectors */
+.top-bar,
+.topbar,
+.header-top,
+.pre-header {
   color: #ffffff !important;
 }
 
-/* Header sub text / tagline */
-header p,
-.hero p,
-.hero-subtitle {
-  color: #f0f0f0 !important;
+/* Text inside the top bar */
+.top-bar p,
+.top-bar a,
+.topbar p,
+.topbar a,
+.header-top p,
+.header-top a {
+  color: #ffffff !important;
 }
+  
