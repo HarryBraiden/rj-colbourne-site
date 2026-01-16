@@ -628,3 +628,13 @@ header > div:first-child * {
     text-align: left;
   }
 }
+
+/* Make header contact text readable */
+.contact-line,
+.contact-line a {
+  color: #ffffff;
+}
+
+.contact-line a:hover {
+  opacity: 0.85;
+}
