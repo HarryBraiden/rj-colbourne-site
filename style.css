@@ -410,34 +410,5 @@ button {
 .btn:hover,
 button:hover {
   background-color: #081f36;
-  border-color: #081f36;
-}
-
-/* Links */
-a {
-  color: var(--navy);
-}
-
-a:hover {
-  color: #081f36;
-}
-
-/* Icons if any */
-i,
-.icon {
-  color: var(--navy);
-}
-
-
-/* NAVY OVERRIDE - STRONG */
-header, nav, .navbar, .site-header, .topbar, .hero, .hero-section {
-  background: #0A2A4A !important;
-  background-color: #0A2A4A !important;
-}
-
-* {
-  /* catches CSS vars used by templates */
-  --primary: #0A2A4A;
-  --accent: #0A2A4A;
-  --brand: #0A2A4A;
-}
+  border-color: #ffff
+  }
