@@ -372,3 +372,58 @@ h1{
   .top{ padding: 12px 12px; }
   .btn{ width: 100%; justify-content:center; }
 }
+
+/* ===== NAVY BLUE OVERRIDE (Dixon-style) ===== */
+:root {
+  --navy: #0A2A4A;
+}
+
+/* Header background / strips */
+header,
+.hero,
+.header,
+.top-bar {
+  background-color: var(--navy) !important;
+}
+
+/* Main headings */
+h1, h2, h3 {
+  color: var(--navy);
+}
+
+/* Care & Respect / tagline text */
+.care,
+.respect,
+.tagline,
+.hero-subtitle {
+  color: var(--navy);
+}
+
+/* Buttons */
+.btn,
+button {
+  background-color: var(--navy);
+  border-color: var(--navy);
+  color: #ffffff;
+}
+
+.btn:hover,
+button:hover {
+  background-color: #081f36;
+  border-color: #081f36;
+}
+
+/* Links */
+a {
+  color: var(--navy);
+}
+
+a:hover {
+  color: #081f36;
+}
+
+/* Icons if any */
+i,
+.icon {
+  color: var(--navy);
+}
