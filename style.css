@@ -523,3 +523,37 @@ header > div:first-child * {
     height: 230px;
   }
 }
+
+
+/* ===== Recent Work section (position + spacing) ===== */
+
+.recent-work{
+  padding: 28px 16px;
+  margin-top: 18px;
+}
+
+.recent-work h2{
+  margin: 0 0 14px;
+}
+
+/* keep the grid tidy */
+.work-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+/* consistent tiles */
+.work-grid img{
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+}
+
+/* desktop */
+@media (min-width: 900px){
+  .work-grid{ grid-template-columns: repeat(3, 1fr); }
+  .work-grid img{ height: 230px; }
+}
