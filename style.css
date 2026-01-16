@@ -61,10 +61,11 @@ a:hover{ text-decoration: underline; }
 }
 
 .brand b{
-  font-family: Georgia, "Times New Roman", Times, serif; /* closer to card print */
-  font-size: 19px;
-  letter-spacing: .2px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  letter-spacing: .4px;
 }
+
 
 .brand span{
   font-size: 13px;
