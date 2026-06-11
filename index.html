@@ -1,191 +1,304 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>R J Colbourne | Tarmac Contractor & Block Paving | Dudley</title>
-  <meta name="description" content="R J Colbourne — Tarmac Contractor & Block Paving in Dudley & the West Midlands. Driveways, resurfacing & repairs. Free quotes." />
-
-  <!-- External CSS ONLY -->
+  <title>Gemcoast Boutique | Coastal Swimwear</title>
+  <meta name="description" content="Handpicked coastal swimwear for the modern beach babe. Bikinis, one-pieces, cover-ups and accessories. Shop Gemcoast Boutique." />
+  <meta property="og:title" content="Gemcoast Boutique | Coastal Swimwear" />
+  <meta property="og:description" content="Handpicked coastal swimwear inspired by the sea. Bikinis, one-pieces and cover-ups." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <div class="wrap">
 
-    <!-- Top Bar -->
-    <header class="top">
-      <div class="brand">
-        <b>R J Colbourne</b>
-        <span>Tarmac Contractor &amp; Block Paving — Dudley / West Midlands</span>
-      </div>
-
-      <div class="top-contact">
-  <div class="contact-line">
-    <strong>Call:</strong>
-    <a href="tel:01384233333">01384 233333</a>
-
-    <span class="sep">|</span>
-
-    <strong>Mobile:</strong>
-    <a href="tel:07973662291">07973 662291</a>
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announce-bar" role="marquee" aria-live="off">
+    <div class="announce-track">
+      <span>Free UK shipping on orders over £50 ✦</span>
+      <span>New summer drops every week ✦</span>
+      <span>Returns accepted within 30 days ✦</span>
+      <span>Ethically made &amp; inclusive sizing ✦</span>
+      <span>Free UK shipping on orders over £50 ✦</span>
+      <span>New summer drops every week ✦</span>
+      <span>Returns accepted within 30 days ✦</span>
+      <span>Ethically made &amp; inclusive sizing ✦</span>
+    </div>
   </div>
 
-  <a class="btn btn-primary whatsapp-btn"
-     href="https://wa.me/447973662291">
-     WhatsApp Photos
-  </a>
-</div>
-    </header>
-
-    <!-- Hero -->
-    <main class="hero">
-      <div class="hero-grid">
-
-        <section class="card hero-main">
-          <span class="pill">Free Quotes • Local & Reliable</span>
-
-          <h1>Driveways, Resurfacing &amp; Repairs — Done Properly.</h1>
-
-          <p class="lead">
-            Clean edges, solid preparation and tidy finishes.
-            Straightforward quotes and reliable local service across the West Midlands.
-          </p>
-
-          <div class="mini">
-            <a class="btn primary" href="#contact">Get a Free Quote</a>
-            <a class="btn" href="#services">Our Services</a>
-          </div>
-
-          <div class="ticks">
-            <div class="tick"><span class="dot">✓</span> New driveways & replacements</div>
-            <div class="tick"><span class="dot">✓</span> Repairs, patching & resurfacing</div>
-            <div class="tick"><span class="dot">✓</span> Domestic & small commercial work</div>
-          </div>
-        </section>
-
-        <aside class="card hero-side">
-          <div class="side-box">
-            <h3>Areas Covered</h3>
-            <div class="big">Dudley &amp; West Midlands</div>
-            <p class="small">Including Stourbridge, Kingswinford, Brierley Hill and surrounding areas.</p>
-          </div>
-
-          <div class="side-box kv">
-            <a href="tel:01384233333"><span class="icon">☎</span>01384 233333</a>
-            <a href="tel:07973662291"><span class="icon">📱</span>07973 662291</a>
-            <a href="mailto:johncolbourne1@btinternet.com"><span class="icon">✉</span>johncolbourne1@btinternet.com</a>
-            <a href="https://wa.me/447973662291" target="_blank" rel="noopener">
-              <span class="icon">💬</span>Send photos for a quick estimate
-            </a>
-          </div>
-
-          <div class="side-box">
-            <h3>Address</h3>
-            <p class="small">
-              27 Sanders Close<br>
-              Dudley<br>
-              West Midlands<br>
-              DY2 8DP
-            </p>
-          </div>
-        </aside>
-
+  <!-- HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="header-wrap container">
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="index.html" class="wordmark" aria-label="Gemcoast Boutique home">
+        <svg class="wordmark-wave" width="28" height="18" viewBox="0 0 28 18" fill="none">
+          <path d="M2 14 C5 6, 9 6, 14 10 C19 14, 23 14, 26 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+          <circle cx="14" cy="4" r="2.5" fill="currentColor"/>
+        </svg>
+        <span class="wordmark-text">Gemcoast</span>
+        <span class="wordmark-sub">boutique</span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link is-active">Home</a>
+        <a href="shop.html" class="nav-link">Shop</a>
+        <a href="#collections" class="nav-link">Collections</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-icons">
+        <button class="icon-btn" id="search-toggle" aria-label="Search">
+          <svg width="19" height="19" fill="none" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="1.7"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </button>
+        <a href="shop.html" class="icon-btn cart-icon" aria-label="Shopping bag (0 items)">
+          <svg width="19" height="19" fill="none" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="1.7"/><path d="M16 10a4 4 0 01-8 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="cart-bubble">0</span>
+        </a>
       </div>
-    </main>
-
-    <!-- Services -->
-    <section class="section" id="services">
-      <div class="section-title">
-        <h2>Our Services</h2>
-        <p>Proper groundwork, clean finishes.</p>
+    </div>
+    <div class="search-bar" id="search-bar" aria-hidden="true">
+      <div class="container">
+        <input type="search" placeholder="Search swimwear, cover-ups, accessories…" aria-label="Search products" />
+        <button class="search-close" id="search-close" aria-label="Close search">✕</button>
       </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.etsy.com/shop/gemcoastboutique" target="_blank" rel="noopener" class="mobile-etsy">Shop on Etsy ↗</a>
+    </nav>
+  </header>
 
-      <div class="grid3">
-        <div class="card service">
-          <b>New Driveways</b>
-          <span>Full dig-out, solid sub-base and cleanly laid tarmac.</span>
-        </div>
-
-        <div class="card service">
-          <b>Resurfacing</b>
-          <span>Fresh layers to bring worn surfaces back to life.</span>
-        </div>
-
-        <div class="card service">
-          <b>Repairs &amp; Patching</b>
-          <span>Potholes, cracks and sunken areas repaired properly.</span>
-        </div>
-
-        <div class="card service">
-          <b>Block Paving</b>
-          <span>Paths, borders and decorative paving.</span>
-        </div>
-
-        <div class="card service">
-          <b>Edging &amp; Kerbs</b>
-          <span>Strong edges that keep everything locked in.</span>
-        </div>
-
-        <div class="card service">
-          <b>Ground Preparation</b>
-          <span>Excavation and preparation done right.</span>
-        </div>
+  <!-- HERO -->
+  <section class="hero" id="hero" aria-label="Hero section">
+    <div class="hero-particles" id="particles-container" aria-hidden="true"></div>
+    <div class="hero-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,50 C200,90 400,10 600,50 C800,90 1000,10 1200,50 C1300,70 1380,40 1440,50 L1440,100 L0,100 Z" fill="var(--bg)"/>
+      </svg>
+    </div>
+    <div class="hero-inner container">
+      <div class="hero-tag reveal-fade">
+        <span class="hero-tag-line"></span>
+        Sun &middot; Salt &middot; Shore
+        <span class="hero-tag-line"></span>
       </div>
-    </section>
+      <h1 class="hero-headline reveal-up delay-1">
+        Made for the<br><em class="hero-em">Shore&nbsp;Life</em>
+      </h1>
+      <p class="hero-sub reveal-up delay-2">
+        Coastal swimwear that moves with you — from sunrise swims to sunset sips. Curated pieces for every body, every beach.
+      </p>
+      <div class="hero-btns reveal-up delay-3">
+        <a href="shop.html" class="btn btn-primary">Shop the Collection</a>
+        <a href="#collections" class="btn btn-glass">Explore Looks</a>
+      </div>
+      <div class="hero-proof reveal-up delay-4">
+        <div class="proof-item"><strong>500+</strong><span>Happy customers</span></div>
+        <div class="proof-sep" aria-hidden="true"></div>
+        <div class="proof-item"><strong>100%</strong><span>Handpicked styles</span></div>
+        <div class="proof-sep" aria-hidden="true"></div>
+        <div class="proof-item"><strong>5 ★</strong><span>Etsy rated</span></div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Work -->
-    <section class="recent-work" id="work">
-  <h2>Recent Work</h2>
-
-  <div class="work-list">
-    <a href="assets/rj-work-1.jpg.JPG" target="_blank" class="work-item">
-      <img src="assets/rj-work-1.jpg.JPG" alt="Recent driveway work 1">
-    </a>
-
-    <a href="assets/rj-work-3.jpg.JPG" target="_blank" class="work-item">
-      <img src="assets/rj-work-3.jpg.JPG" alt="Recent driveway work 3">
-    </a>
-
-    <a href="assets/rj-work-4.jpg.JPG" target="_blank" class="work-item">
-      <img src="assets/rj-work-4.jpg.JPG" alt="Recent driveway work 4">
-    </a>
-
-    <a href="assets/rj-work-5.jpg.JPG" target="_blank" class="work-item">
-      <img src="assets/rj-work-5.jpg.JPG" alt="Recent driveway work 5">
-    </a>
+  <!-- MARQUEE -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-inner">
+      <span>Bikinis ✦</span><span>Cover-Ups ✦</span><span>One-Pieces ✦</span>
+      <span>Beach Accessories ✦</span><span>Holiday Ready ✦</span>
+      <span>Inclusive Sizing ✦</span><span>Coastal Living ✦</span>
+      <span>Bikinis ✦</span><span>Cover-Ups ✦</span><span>One-Pieces ✦</span>
+      <span>Beach Accessories ✦</span><span>Holiday Ready ✦</span>
+      <span>Inclusive Sizing ✦</span><span>Coastal Living ✦</span>
+    </div>
   </div>
-</section>
 
-    <!-- Contact -->
-    <section class="section" id="contact">
-      <div class="section-title">
-        <h2>Get a Free Quote</h2>
-        <p>Fastest response via phone or WhatsApp.</p>
+  <!-- COLLECTIONS -->
+  <section class="section collections-section" id="collections" aria-labelledby="collections-title">
+    <div class="container">
+      <header class="section-head reveal-up">
+        <p class="eyebrow">Shop by category</p>
+        <h2 id="collections-title" class="section-title">Find Your Look</h2>
+      </header>
+      <div class="collections-grid">
+        <a href="shop.html?cat=bikinis" class="col-card col-bikinis reveal-up delay-1">
+          <div class="col-art" aria-hidden="true">
+            <div class="col-orb orb-a"></div><div class="col-orb orb-b"></div>
+            <svg class="col-icon" viewBox="0 0 80 80" fill="none">
+              <path d="M25 28C25 20 30 16 40 16C50 16 55 20 55 28" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+              <path d="M22 28L25 28C28 36 32 42 40 46C48 42 52 36 55 28L58 28" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+              <path d="M26 54C24 47 30 43 40 43C50 43 56 47 54 54" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+              <path d="M26 54L26 66C30 62 36 60 40 60C44 60 50 62 54 66L54 54" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
+            </svg>
+          </div>
+          <div class="col-info"><h3>Bikinis</h3><span class="col-count">32 styles</span></div>
+        </a>
+        <a href="shop.html?cat=onepieces" class="col-card col-onepieces reveal-up delay-2">
+          <div class="col-art" aria-hidden="true">
+            <div class="col-orb orb-a"></div><div class="col-orb orb-b"></div>
+            <svg class="col-icon" viewBox="0 0 80 80" fill="none">
+              <path d="M28 18C28 14 32 12 40 12C48 12 52 14 52 18" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+              <path d="M22 18L28 18L32 30L48 30L52 18L58 18L56 50C56 60 48 66 40 66C32 66 24 60 24 50Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="white" fill-opacity="0.12" opacity="0.9"/>
+            </svg>
+          </div>
+          <div class="col-info"><h3>One-Pieces</h3><span class="col-count">18 styles</span></div>
+        </a>
+        <a href="shop.html?cat=coverups" class="col-card col-coverups reveal-up delay-3">
+          <div class="col-art" aria-hidden="true">
+            <div class="col-orb orb-a"></div><div class="col-orb orb-b"></div>
+            <svg class="col-icon" viewBox="0 0 80 80" fill="none">
+              <circle cx="40" cy="20" r="6" stroke="white" stroke-width="2.5" fill="none" opacity="0.9"/>
+              <path d="M24 26L20 66M56 26L60 66M24 26C28 24 36 22 40 22C44 22 52 24 56 26M20 66L60 66" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+            </svg>
+          </div>
+          <div class="col-info"><h3>Cover-Ups</h3><span class="col-count">14 styles</span></div>
+        </a>
+        <a href="shop.html?cat=accessories" class="col-card col-accessories reveal-up delay-4">
+          <div class="col-art" aria-hidden="true">
+            <div class="col-orb orb-a"></div><div class="col-orb orb-b"></div>
+            <svg class="col-icon" viewBox="0 0 80 80" fill="none">
+              <path d="M14 44C14 32 20 20 40 18C60 16 68 28 68 40C68 48 62 50 40 50C18 50 14 46 14 44Z" stroke="white" stroke-width="2.5" fill="none" opacity="0.9"/>
+              <path d="M25 50C28 60 36 66 40 66C44 66 52 60 55 50" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+              <line x1="40" y1="18" x2="40" y2="14" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="40" cy="12" r="2" fill="white" opacity="0.9"/>
+            </svg>
+          </div>
+          <div class="col-info"><h3>Accessories</h3><span class="col-count">22 styles</span></div>
+        </a>
       </div>
+    </div>
+  </section>
 
-      <div class="card footer">
-        <div>
-          <p class="small">
-            <b>Telephone:</b> <a href="tel:01384233333">01384 233333</a><br>
-            <b>Mobile:</b> <a href="tel:07973662291">07973 662291</a><br>
-            <b>Email:</b> <a href="mailto:johncolbourne1@btinternet.com">johncolbourne1@btinternet.com</a>
-          </p>
-        </div>
+  <!-- NEW ARRIVALS -->
+  <section class="section products-section" aria-labelledby="new-arrivals-title">
+    <div class="container">
+      <header class="section-head reveal-up">
+        <p class="eyebrow">Just dropped</p>
+        <h2 id="new-arrivals-title" class="section-title">New Arrivals</h2>
+        <a href="shop.html" class="section-link">View all <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </header>
+      <div class="products-grid">
+        <article class="product-card reveal-up delay-1"><div class="p-media p-img-1"><span class="p-badge badge-new">New</span><button class="p-wishlist" aria-label="Save to wishlist"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke="currentColor" stroke-width="1.8"/></svg></button><button class="p-quick">Quick Shop</button></div><div class="p-meta"><p class="p-cat">Bikinis</p><h3 class="p-name">Azure Triangle Bikini Set</h3><p class="p-price"><span class="price">£44.00</span></p><div class="p-swatches"><span class="swatch sw-ocean" title="Ocean"></span><span class="swatch sw-coral" title="Coral"></span><span class="swatch sw-sand" title="Sand"></span></div></div></article>
+        <article class="product-card reveal-up delay-2"><div class="p-media p-img-2"><span class="p-badge badge-best">Bestseller</span><button class="p-wishlist" aria-label="Save to wishlist"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke="currentColor" stroke-width="1.8"/></svg></button><button class="p-quick">Quick Shop</button></div><div class="p-meta"><p class="p-cat">One-Pieces</p><h3 class="p-name">Sunset Halter One-Piece</h3><p class="p-price"><span class="price">£52.00</span></p><div class="p-swatches"><span class="swatch sw-coral" title="Coral"></span><span class="swatch sw-terracotta" title="Terracotta"></span></div></div></article>
+        <article class="product-card reveal-up delay-3"><div class="p-media p-img-3"><button class="p-wishlist" aria-label="Save to wishlist"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke="currentColor" stroke-width="1.8"/></svg></button><button class="p-quick">Quick Shop</button></div><div class="p-meta"><p class="p-cat">Cover-Ups</p><h3 class="p-name">Tidal Crochet Cover-Up</h3><p class="p-price"><span class="price">£38.00</span></p><div class="p-swatches"><span class="swatch sw-cream" title="Cream"></span><span class="swatch sw-sand" title="Sand"></span></div></div></article>
+        <article class="product-card reveal-up delay-4"><div class="p-media p-img-4"><span class="p-badge badge-low">Low stock</span><button class="p-wishlist" aria-label="Save to wishlist"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke="currentColor" stroke-width="1.8"/></svg></button><button class="p-quick">Quick Shop</button></div><div class="p-meta"><p class="p-cat">Bikinis</p><h3 class="p-name">Pearl Bandeau Set</h3><p class="p-price"><span class="price">£46.00</span></p><div class="p-swatches"><span class="swatch sw-pearl" title="Pearl"></span><span class="swatch sw-nude" title="Nude"></span></div></div></article>
+        <article class="product-card reveal-up delay-1"><div class="p-media p-img-5"><span class="p-badge badge-new">New</span><button class="p-wishlist" aria-label="Save to wishlist"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke="currentColor" stroke-width="1.8"/></svg></button><button class="p-quick">Quick Shop</button></div><div class="p-meta"><p class="p-cat">Accessories</p><h3 class="p-name">Coastline Wide-Brim Hat</h3><p class="p-price"><span class="price">£28.00</span></p><div class="p-swatches"><span class="swatch sw-sand" title="Natural"></span></div></div></article>
+        <article class="product-card reveal-up delay-2"><div class="p-media p-img-6"><button class="p-wishlist" aria-label="Save to wishlist"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke="currentColor" stroke-width="1.8"/></svg></button><button class="p-quick">Quick Shop</button></div><div class="p-meta"><p class="p-cat">Bikinis</p><h3 class="p-name">Tropic Tie-Side Bikini</h3><p class="p-price"><span class="price-was">£48.00</span><span class="price price-sale">£36.00</span><span class="sale-tag">Sale</span></p><div class="p-swatches"><span class="swatch sw-teal" title="Teal"></span><span class="swatch sw-lime" title="Lime"></span><span class="swatch sw-ocean" title="Blue"></span></div></div></article>
+        <article class="product-card reveal-up delay-3"><div class="p-media p-img-7"><span class="p-badge badge-best">Bestseller</span><button class="p-wishlist" aria-label="Save to wishlist"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke="currentColor" stroke-width="1.8"/></svg></button><button class="p-quick">Quick Shop</button></div><div class="p-meta"><p class="p-cat">Cover-Ups</p><h3 class="p-name">Shoreline Maxi Cover-Up</h3><p class="p-price"><span class="price">£56.00</span></p><div class="p-swatches"><span class="swatch sw-white" title="White"></span><span class="swatch sw-coral" title="Coral"></span></div></div></article>
+        <article class="product-card reveal-up delay-4"><div class="p-media p-img-8"><button class="p-wishlist" aria-label="Save to wishlist"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" stroke="currentColor" stroke-width="1.8"/></svg></button><button class="p-quick">Quick Shop</button></div><div class="p-meta"><p class="p-cat">One-Pieces</p><h3 class="p-name">Midnight Tide Sculpt Suit</h3><p class="p-price"><span class="price">£64.00</span></p><div class="p-swatches"><span class="swatch sw-ocean" title="Ocean"></span><span class="swatch sw-teal" title="Teal"></span></div></div></article>
+      </div>
+    </div>
+  </section>
 
-        <div>
-          <p class="small">
-            <b>Facebook:</b><br>
-            RJ Colbourne Tarmac Contractor
-          </p>
-          <p class="fine">
-            © R J Colbourne — All rights reserved.
-          </p>
+  <!-- TRUST BAND -->
+  <section class="trust-band" aria-label="Shopping benefits"><div class="container"><ul class="trust-list"><li class="trust-item reveal-up delay-1"><div class="trust-icon" aria-hidden="true"><svg width="26" height="26" fill="none" viewBox="0 0 24 24"><path d="M5 8h14l-1.5 9a2 2 0 01-2 1.73H8.5a2 2 0 01-2-1.73L5 8z" stroke="currentColor" stroke-width="1.7"/><path d="M5 8l-.5-3H2M9 21v-2M15 21v-2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><div><h4>Free UK Shipping</h4><p>On orders over £50</p></div></li><li class="trust-sep" aria-hidden="true"></li><li class="trust-item reveal-up delay-2"><div class="trust-icon" aria-hidden="true"><svg width="26" height="26" fill="none" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><h4>Secure Checkout</h4><p>Encrypted &amp; safe payments</p></div></li><li class="trust-sep" aria-hidden="true"></li><li class="trust-item reveal-up delay-3"><div class="trust-icon" aria-hidden="true"><svg width="26" height="26" fill="none" viewBox="0 0 24 24"><polyline points="1 4 1 10 7 10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.51 15a9 9 0 102.13-9.36L1 10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><h4>Easy Returns</h4><p>30-day hassle-free returns</p></div></li><li class="trust-sep" aria-hidden="true"></li><li class="trust-item reveal-up delay-4"><div class="trust-icon" aria-hidden="true"><svg width="26" height="26" fill="none" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 20.364l7.682-7.682 1.06-1.06a5.5 5.5 0 000-7.78z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><h4>Curated with Love</h4><p>Every piece handpicked</p></div></li></ul></div></section>
+
+  <!-- ABOUT -->
+  <section class="section about-section" id="about" aria-labelledby="about-title">
+    <div class="container about-layout">
+      <div class="about-visual reveal-left" aria-hidden="true">
+        <div class="about-blob-wrap">
+          <div class="about-blob blob-main"></div>
+          <div class="about-blob blob-accent"></div>
+          <div class="about-float-badge"><p class="badge-num">500+</p><p class="badge-lbl">Happy customers</p></div>
+          <div class="about-float-tag"><svg width="14" height="14" fill="none" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> Ethically sourced</div>
         </div>
       </div>
-    </section>
+      <div class="about-copy reveal-right">
+        <p class="eyebrow">Our story</p>
+        <h2 id="about-title" class="section-title">Born on the Shore</h2>
+        <p class="about-lead">Gemcoast Boutique started with one simple obsession — finding swimwear as beautiful as the places we wear it.</p>
+        <p class="about-body">Every piece in our collection is handpicked for quality, fit, and that effortless coastal confidence. We believe swimwear should celebrate every body — sun-kissed, salty and free. From early morning sea swims to golden-hour cocktails, we have the perfect look for every shore moment.</p>
+        <ul class="about-values">
+          <li><span class="val-icon" aria-hidden="true">✦</span><span>Inclusive sizing across all styles</span></li>
+          <li><span class="val-icon" aria-hidden="true">♾</span><span>Ethically produced with sustainable fabrics</span></li>
+          <li><span class="val-icon" aria-hidden="true">🌊</span><span>Coastal-inspired curation, season after season</span></li>
+        </ul>
+        <a href="shop.html" class="btn btn-primary" style="margin-top:2.2rem">Explore the Collection</a>
+      </div>
+    </div>
+  </section>
 
-  </div>
+  <!-- FEATURED DUO -->
+  <section class="section featured-section" aria-labelledby="featured-title">
+    <div class="container">
+      <header class="section-head reveal-up"><p class="eyebrow">Customer favourites</p><h2 id="featured-title" class="section-title">The Must-Haves</h2><a href="shop.html" class="section-link">View all <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></header>
+      <div class="featured-duo">
+        <div class="feat-card reveal-left"><div class="feat-media feat-1" aria-hidden="true"></div><div class="feat-body"><p class="feat-cat">Bestselling Set</p><h3 class="feat-name">The Shore Set — Complete Look</h3><p class="feat-desc">Our most-loved matching look. A crinkle-texture bikini top paired with high-waisted bottoms and a matching linen cover-up. Effortlessly resort-ready.</p><div class="feat-foot"><span class="feat-price">£89.00</span><a href="shop.html" class="btn btn-primary btn-sm">Add to Bag</a></div></div></div>
+        <div class="feat-card reveal-right"><div class="feat-media feat-2" aria-hidden="true"></div><div class="feat-body"><p class="feat-cat">One-Piece</p><h3 class="feat-name">Midnight Tides Sculpt Suit</h3><p class="feat-desc">A deep ocean-blue sculpting one-piece with ruched side detailing. Flattering, supportive, and stunning. The piece that sells out every summer.</p><div class="feat-foot"><span class="feat-price">£64.00</span><a href="shop.html" class="btn btn-primary btn-sm">Add to Bag</a></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials-section" aria-labelledby="reviews-title">
+    <div class="container">
+      <header class="section-head reveal-up"><p class="eyebrow">What customers say</p><h2 id="reviews-title" class="section-title">Loved Head to Toe</h2></header>
+      <div class="t-grid">
+        <div class="t-card reveal-up delay-1"><div class="stars" aria-label="5 stars">★★★★★</div><blockquote class="t-quote">"I ordered the Azure Triangle Set and it arrived so quickly in the most gorgeous packaging. The quality is amazing — fits perfectly and the colour is even more beautiful in person!"</blockquote><div class="t-author"><div class="t-avatar" aria-hidden="true">J</div><div><p class="t-name">Jade K.</p><p class="t-src">Verified Etsy buyer</p></div></div></div>
+        <div class="t-card reveal-up delay-2"><div class="stars" aria-label="5 stars">★★★★★</div><blockquote class="t-quote">"The Sunset Halter One-Piece is my absolute favourite. I've had so many compliments on holiday. Feels premium, looks stunning and the packaging made it feel like a real treat."</blockquote><div class="t-author"><div class="t-avatar" aria-hidden="true">A</div><div><p class="t-name">Amy W.</p><p class="t-src">Verified Etsy buyer</p></div></div></div>
+        <div class="t-card reveal-up delay-3"><div class="stars" aria-label="5 stars">★★★★★</div><blockquote class="t-quote">"Bought as a birthday gift — my friend was absolutely floored. The crochet cover-up is stunning and the attention to detail in the packaging made it so special. 10/10 would recommend."</blockquote><div class="t-author"><div class="t-avatar" aria-hidden="true">S</div><div><p class="t-name">Sophie R.</p><p class="t-src">Verified Etsy buyer</p></div></div></div>
+      </div>
+      <div class="t-footer reveal-up"><div class="rating-wrap"><span class="rating-stars" aria-hidden="true">★★★★★</span><span class="rating-lbl">5.0 · 500+ reviews on Etsy</span></div><a href="https://www.etsy.com/shop/gemcoastboutique" target="_blank" rel="noopener" class="btn btn-outline">Read all reviews</a></div>
+    </div>
+  </section>
+
+  <!-- SOCIAL FEED -->
+  <section class="section social-section" aria-labelledby="social-title">
+    <div class="container">
+      <header class="social-head reveal-up"><h2 id="social-title">@gemcoastboutique</h2><p>Follow us for new drops, holiday inspo &amp; behind-the-scenes content</p><a href="https://www.facebook.com/share/1HpPGUapNn/" target="_blank" rel="noopener" class="btn btn-outline">Follow on Facebook</a></header>
+      <div class="social-grid">
+        <div class="soc-item soc-1 reveal-up delay-1" aria-hidden="true"><div class="soc-overlay"><svg width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></div></div>
+        <div class="soc-item soc-2 reveal-up delay-2" aria-hidden="true"><div class="soc-overlay"><svg width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></div></div>
+        <div class="soc-item soc-3 reveal-up delay-3" aria-hidden="true"><div class="soc-overlay"><svg width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></div></div>
+        <div class="soc-item soc-4 reveal-up delay-4" aria-hidden="true"><div class="soc-overlay"><svg width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></div></div>
+        <div class="soc-item soc-5 reveal-up delay-1" aria-hidden="true"><div class="soc-overlay"><svg width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></div></div>
+        <div class="soc-item soc-6 reveal-up delay-2" aria-hidden="true"><div class="soc-overlay"><svg width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section" id="contact" aria-labelledby="nl-title">
+    <div class="nl-wave-top" aria-hidden="true"><svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path d="M0,35 C360,70 720,0 1080,35 C1260,52 1380,18 1440,35 L1440,0 L0,0 Z" fill="var(--bg)"/></svg></div>
+    <div class="container nl-inner reveal-up">
+      <p class="eyebrow" style="color: var(--seafoam-light)">Stay in the loop</p>
+      <h2 id="nl-title">Join the Gemcoast Community</h2>
+      <p class="nl-sub">First access to new drops, exclusive discounts, and stories from the shore.</p>
+      <form class="nl-form" id="nl-form" novalidate><div class="nl-wrap"><label for="nl-email" class="sr-only">Email address</label><input type="email" id="nl-email" name="email" placeholder="Enter your email address" required autocomplete="email" /><button type="submit" class="btn btn-primary">Subscribe</button></div><p class="nl-fine">No spam, ever. Unsubscribe any time.</p></form>
+      <div class="nl-success" id="nl-success" hidden aria-live="polite">✦ Welcome to the Gemcoast family — check your inbox!</div>
+    </div>
+    <div class="nl-wave-bottom" aria-hidden="true"><svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path d="M0,35 C360,0 720,70 1080,35 C1260,18 1380,52 1440,35 L1440,70 L0,70 Z" fill="var(--dark)"/></svg></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-layout">
+      <div class="footer-brand-col">
+        <a href="index.html" class="wordmark wordmark-light" aria-label="Gemcoast Boutique home"><svg class="wordmark-wave" width="28" height="18" viewBox="0 0 28 18" fill="none"><path d="M2 14 C5 6, 9 6, 14 10 C19 14, 23 14, 26 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/><circle cx="14" cy="4" r="2.5" fill="currentColor"/></svg><span class="wordmark-text">Gemcoast</span><span class="wordmark-sub">boutique</span></a>
+        <p class="footer-tag">Coastal swimwear for sun-kissed souls.<br>Made for the shore life.</p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/share/1HpPGUapNn/" target="_blank" rel="noopener" aria-label="Facebook" class="footer-soc"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+          <a href="https://www.etsy.com/shop/gemcoastboutique" target="_blank" rel="noopener" aria-label="Etsy shop" class="footer-soc"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9.194 4.013c.05-.913.1-1.826.1-2.75C9.294.588 9.581 0 10.256 0c.3 0 .562.113.787.338.537.538.575 1.563.575 2.125v4.963h.025c.3-1.238 1.975-5.888 5.487-5.888.788 0 1.5.238 1.963.7.638.638.762 1.538.762 2.226 0 1.25-.462 2.563-1.475 2.563-.338 0-.662-.113-.9-.35-.325-.325-.463-.875-.463-1.463 0-.2.013-.4.025-.6.012-.15.025-.3.025-.45 0-.275-.088-.512-.275-.7-.188-.187-.438-.287-.713-.287-.862 0-1.537.537-2.037 1.475-.563 1.062-.988 2.75-1.25 4.587-.013.088-.025.175-.025.263h5.012c.8 0 1.338.35 1.338 1.1 0 .7-.463 1.025-1.213 1.025H12.9c-.037.3-.075.6-.075.912v6.9c.55 1.263 1.588 2.425 2.825 3.163.913.538 2.063.9 3.3.9.65 0 1.313-.1 1.925-.3.087-.025.162-.05.237-.05.4 0 .65.3.65.7 0 .45-.262.75-.725.9-.787.25-1.725.412-2.637.412-1.913 0-3.788-.65-5.263-1.962-1.075-.963-1.9-2.213-2.4-3.588H4.744c-.85 0-1.2-.313-1.2-1.05 0-.688.425-1.075 1.162-1.075h5.313V9.8c0-.312.025-.625.063-.925H4.644c-.85 0-1.2-.312-1.2-1.05 0-.687.425-1.062 1.162-1.062h4.588c.5-1.25.8-2.5.8-3.55c0-.4-.05-.775-.137-1.2H4.644c-.85 0-1.2-.313-1.2-1.05 0-.688.425-1.075 1.162-1.075h4.538c.025.375.05.75.05 1.125z"/></svg></a>
+        </div>
+      </div>
+      <nav class="footer-col" aria-labelledby="f-shop"><h4 id="f-shop">Shop</h4><ul><li><a href="shop.html?cat=bikinis">Bikinis</a></li><li><a href="shop.html?cat=onepieces">One-Pieces</a></li><li><a href="shop.html?cat=coverups">Cover-Ups</a></li><li><a href="shop.html?cat=accessories">Accessories</a></li><li><a href="shop.html?cat=sale">Sale</a></li></ul></nav>
+      <nav class="footer-col" aria-labelledby="f-info"><h4 id="f-info">Information</h4><ul><li><a href="#about">About Us</a></li><li><a href="#">Sizing Guide</a></li><li><a href="#">Shipping &amp; Returns</a></li><li><a href="#">FAQs</a></li><li><a href="#">Sustainability</a></li></ul></nav>
+      <nav class="footer-col" aria-labelledby="f-contact"><h4 id="f-contact">Get in Touch</h4><ul><li><a href="https://www.etsy.com/shop/gemcoastboutique" target="_blank" rel="noopener">Our Etsy Shop</a></li><li><a href="https://www.facebook.com/share/1HpPGUapNn/" target="_blank" rel="noopener">Facebook Page</a></li><li><a href="mailto:hello@gemcoastboutique.com">Email Us</a></li><li><a href="#contact">Newsletter</a></li></ul></nav>
+    </div>
+    <div class="footer-bar"><div class="container footer-bar-inner"><p>&copy; 2026 Gemcoast Boutique. All rights reserved.</p><p>Handpicked with love &amp; a little saltwater ✦</p></div></div>
+  </footer>
+
+  <button class="back-top" id="back-top" aria-label="Scroll back to top" hidden><svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M18 15l-6-6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <script src="script.js"></script>
 </body>
 </html>
